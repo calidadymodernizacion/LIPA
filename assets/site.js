@@ -73,7 +73,7 @@ function applyEditorialPolish(){
   const about=$('#sobre-lipa .extra-copy');
   if(about)about.textContent='LIPA nació del trabajo con estudiantes de la Maestría en Administración Pública, en la asignatura Calidad y Modernización en el Servicio Público. Desde ahí, buscamos que el conocimiento generado en el aula se traduzca en propuestas que puedan verse, explorarse y mejorarse. Ese es nuestro punto de partida, no nuestro límite: el laboratorio tiene vocación de abrirse a nuevas disciplinas y problemas públicos. La difusión de trabajos y autorías estará sujeta a la autorización de sus autores.';
   const style=document.createElement('style');
-  style.textContent='/* Ajustes editoriales LIPA */\n.extra-copy,.hero-description,.method-card p,.about-card p,.detail-step p,.dialog-sub,.field p{text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:break-word}\n';
+  style.textContent='/* Ajustes editoriales LIPA */\n.extra-copy,.hero-description,.method-card p,.about-card p,.detail-step p,.dialog-sub,.field p{text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:break-word}\n/* Las portadas ya tienen degradado integrado: suavizar la segunda capa CSS. */\n.project-card::after{background:linear-gradient(90deg,rgba(9,17,32,.48) 0%,rgba(9,17,32,.39) 35%,rgba(9,17,32,.20) 67%,rgba(9,17,32,0) 100%)}\n.project-title{text-shadow:0 2px 8px rgba(3,9,23,.28)}\n';
   document.head.append(style);
   const status=$('#catalogStatus');if(status)status.replaceChildren();
 }

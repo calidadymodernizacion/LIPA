@@ -1,0 +1,24 @@
+LIPA — Laboratorio de Innovación Pública Aplicada
+=================================================
+
+SITIO ESTÁTICO LISTO PARA NETLIFY DROP
+
+1. Descomprime el ZIP.
+2. Arrastra la carpeta LIPA_site (la carpeta que contiene index.html) a Netlify Drop.
+3. El sitio es responsive. Su contenido principal funciona sin servidor ni base de datos.
+
+CÓMO AÑADIR LOS ENLACES DE LOS PROTOTIPOS
+Abre index.html con un editor de texto y localiza 'const projects = [' hacia el final.
+En cada proyecto sustituye el valor url:'' por url:'https://ENLACE-VERIFICADO.netlify.app/'.
+Puedes actualizar también author, problem, solution y features, siguiendo la información
+real de cada trabajo y con permiso del estudiante antes de publicar su nombre.
+
+IMÁGENES
+Las imágenes proceden de la vista conceptual aprobada para el diseño de LIPA.
+Las tarjetas no representan capturas reales verificadas de las aplicaciones; pueden
+sustituirse por capturas originales cuando estén disponibles.
+
+NOTA
+Iniciativa académica en desarrollo, sin atribuir reconocimiento formal del ISAP.
+No se usan bases de datos, cookies de seguimiento ni scripts de analítica.
+La tipografía usa Inter por Google Fonts (si no hay conexión se utiliza una alternativa).
